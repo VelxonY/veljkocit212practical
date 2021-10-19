@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    background-color: red;
+    color: white;
+}
+
+nav{
+    position: fixed;
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+}
+
+a{
+    text-decoration: none;
+    background-color: rebeccapurple;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.navfiller{
+    height: 50px;
+}
+
+h1,h2,p{
+    margin-bottom: 20px;
+}
+
+img{
+    height: 200px;
+    display: inline;
+}
+.container{
+    display: inline;
+    position: relative;
+}
+
+@media screen and (min-width: 800px){
+    *{
+        background-color: green;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
